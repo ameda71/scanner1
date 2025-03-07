@@ -17,7 +17,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/ameda71/mvnsonardoc.git'
+                git branch: 'main', url: 'https://github.com/ameda71/scanner1.git'
             }
         }
 
